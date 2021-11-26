@@ -50,7 +50,7 @@ fun UzerScreen() {
 }
 
 /**
- * Affiche une série de cartes horizontallement
+ * Affiche une série de cartes horizontalement
  * avec un titre
  *
  * @param title Le titre de la section
@@ -82,7 +82,7 @@ fun UzerSection(title: String = "Titre") {
 }
 
 /**
- * Carte avec une image et en dessous un texte aligné horizontalement
+ * Carte avec une image avec un texte en dessous
  *
  * @param imageDrawable Le drawable de l'image à afficher
  * @param text Le texte à afficher
@@ -116,7 +116,7 @@ fun UzerCard(
 /**
  * PREVIEWS
  *
- * Les Previews sont des composable qui servent uniquement au développeur
+ * Les Previews sont des composables qui servent uniquement au développeur
  * Elles permettent de prévisualiser directement dans Android Studio les composables
  * et donc de développer plus rapidement.
  *
